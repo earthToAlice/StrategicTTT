@@ -6,7 +6,7 @@ namespace Board
     {
         private char[,] grid = new char[3, 3];
 
-        SmallBoard()
+        public SmallBoard()
         {
             for (int i = 0; i < 3; i++)
             {
