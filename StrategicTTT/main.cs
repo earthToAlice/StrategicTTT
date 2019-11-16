@@ -1,12 +1,9 @@
 ﻿using System;
 
-namespace StrategicTTT
+class Engine
 {
-    class main
+    public static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+        Console.WriteLine("Hello world!");
     }
 }
