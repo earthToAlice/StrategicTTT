@@ -1,9 +1,12 @@
 ﻿using System;
+using Board;
 
-class Engine
+public class Engine
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("Hello world!");
+        SmallBoard b1 = new SmallBoard();
+
+        b1.Print();
     }
 }
